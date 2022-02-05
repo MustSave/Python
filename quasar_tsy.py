@@ -1,3 +1,26 @@
+'''
+제작 당시 퀘이사존 robots.txt 내용
+User-agent: *
+Allow: /
+Disallow: /*memo*/
+Disallow: /*comment*/
+Disallow: /*cart*/
+Disallow: /*cart*/
+Disallow: /*data/editor*/
+Disallow: /*data/file*/
+Disallow: /*bbs/sns_send.php
+Disallow: /*bbs/view_img.php
+Disallow: /*bbs/board.php
+Disallow: /*bbs/link.php
+Disallow: /*bbs/search.php
+Disallow: /*bbs/password.php
+Disallow: /*bbbs/view_img.php
+Disallow: /*login*/
+Disallow: /*qe_sale/sale*/
+Disallow: /*bbs/qsz_qna*/
+'''
+
+
 import os
 import requests
 from bs4 import BeautifulSoup
