@@ -27,7 +27,7 @@ from bs4 import BeautifulSoup
 import telegram as telepot
 
 def isnew(vic):
-    DIR = os.getcwd()+'/'
+    DIR = os.path.dirname(os.path.realpath(__file__))+'/'
     with open(DIR+"list.txt", 'r', -1, 'utf-8') as f:
         prod = f.readline().strip()
     
