@@ -1,6 +1,0 @@
-[lostark_fishing]
-width = 200
-height = 200
-wait_time = 5
-mark_image_name = LA_exclamation_mark.png
-detect_cnt = 60
